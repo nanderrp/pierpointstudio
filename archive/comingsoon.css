@@ -1,0 +1,27 @@
+body {
+  background-color: #EBDED9;
+}
+
+#body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  opacity: 0;
+  transition: 6s;
+}
+
+p {
+  font-family: "Gothic A1";
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+  opacity: 0;
+  transition: 6s;
+}

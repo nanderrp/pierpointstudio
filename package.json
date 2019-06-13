@@ -1,0 +1,24 @@
+{
+  "name": "pierpoint-studio",
+  "version": "1.0.0",
+  "description": "Pierpoint Studio Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanderrp/pierpointstudio.git"
+  },
+  "author": "Alexander Pierpoint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanderrp/pierpointstudio/issues"
+  },
+  "homepage": "https://github.com/nanderrp/pierpointstudio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "instafeed.js": "^1.4.1"
+  },
+  "devDependencies": {}
+}

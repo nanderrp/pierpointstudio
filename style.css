@@ -1,242 +1,174 @@
 .body {
   background-color: #EBDED9;
   padding-bottom: 3rem;
+  height: inherit;
+  width: 100%;
 }
 
-#navigation {
+#nav {
   background-color: #EBDED9;
-  padding-bottom: 5rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 100px;
+  height: 100%;
+  width: auto;
+  padding-top: 236px;
+  margin-bottom: 55px;
+  margin-left: 100px;
+  margin-right: 100px;
   font-size: 10pt;
-  position: relative;
 }
 
 
-a.nav-link {
+#logo {
+  width: 267px;
+  height: 37px;
+  background-color: #EBDED9;
+}
+
+#menu-link {
   font-family: 'Gothic A1';
   margin-left: 15px;
   margin-right: 15px;
   color: black;
+  position: relative;
 }
 
-.navbar-nav {
-    float:none;
-    margin:0 auto;
-    display: block;
-    text-align: center;
+#Links {
+  margin-left: inherit;
 }
 
-.navbar-nav > li {
-    display: inline-block;
-    float:none;
+#border-line {
+background-color: #EBDED9;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-top: 55px;
+ margin-bottom: 147px;
+ border: .5px solid #232323;
 }
 
-.header .logo {
-  float: none;
-  width: 100%;
+#border-line-2 {
+background-color: #EBDED9;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-top: 55px;
+ margin-bottom: 147px;
+ border: .5px solid #232323;
+}
+
+#main-page h2 {
+font-family: Times New Roman, Georgia, serif;
+font-size: 32px;
+line-height: 50px;
+font-color: #101820;
+padding-left: 100px;
+padding-right: 100px;
+text-align: center;
+}
+
+#main-page img {
   height:auto;
-  background-color: 2020Transparent;
-  background-image: url(file:///Users/apple/Desktop/DEVELOPMENT%20PROJECTS/PIERPOINT%20STUDIO/Images/Logo%20Transparent%20copy.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 5rem;
-  position: fixed;
-  z-index: 0;
-}
-
-.bio{
-  background-color: 2020Transparent;
-  position: relative;
-  z-index: 0;
-}
-
-.bio h4{
-  font-family: "Gothic A1";
-  text-align: center;
-  position: relative;
-  top: 200px;
-}
-
-.bio p {
-  font-family: "Gothic A1";
-  text-align: center;
-  padding: 30px;
-  padding-bottom: 300px;
-  position:relative;
-  top: 200px;
-}
-
-#background {
-  background-color: #EBDED9;
-  height: auto;
-  width:inherit;
-  padding:inherit;
-}
-
-#image-block-left {
-  background-color: #C4AFA9;
-  opacity: 0.8;
-  height: 150px;
-  width: 250px;
-  margin-left: 200px;
-  margin-top: 100px;
-  display: inline-block;
-  position: relative;
-}
-
-#image-block-right {
-  background-color: #C4AFA9;
-  opacity: 0.8;
-  height: 150px;
-  width: 250px;
-  margin-right: 200px;
-  margin-top: 100px;
-  position: relative;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 /* Services */
 
-#choose {
-  background-color: 2020Transparent;
-  height: auto;
-  width: inherit;
-  position: relative;
-}
-
-#choose h4 {
-  padding-top: 200px;
-  font-family: "Gothic A1";
+#services-main h2 {
+  font-family: Times New Roman, Georgia, serif;
+  font-size: 32px;
+  line-height: 50px;
+  font-color: #101820;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
-#choose p {
-  font-family: "Gothic A1";
+#services-main p {
+  font-family: Gothic A1, Helvetica, Arial; font-size: 16px;
+  font-color: #101820;
+  line-height: 28px;
+  padding-left:150px;
+  padding-right: 150px;
   text-align: center;
-  padding: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
-#brand {
-  background-color: #C4AFA9;
-  opacity: 0.8;
-  width: 375px;
-  height: 470px;
-  position: relative;
-  float:left;
-  margin-left:200px;
+#services-main h4 {
+  font-family: Gothic A1, Helvetica, Arial; font-size: 16px;
+  font-color: #101820;
+  line-height: 35px;
+  text-transform: uppercase;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#services-main h3 {
+  font-family: Times New Roman, Georgia, serif;
+  font-size: 22px;
+  line-height: 35px;
+  font-color: #101820;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+
+#package-description {
+  font-family: Gothic A1, Helvetica, Arial; font-size: 16px;
+  font-color: #101820;
+  line-height: 28px;
+  padding-left: 100px:
+  padding-right: 100px;
+  padding-bottom: 60px;
+}
+
+#book-btn {
+  background-color: Transparent;
+  color: #101820;
+  border: 0.5px solid #101820;
+  font-family: Gothic A1, Helvetica, Arial; font-size: 16px;
+  font-color: #101820;
+  margin-left: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
+  padding: 10px 50px;
 }
 
-#brand h6{
-  font-family: "Gothic A1";
-  padding-top: 30px;
-}
 
-#brand p {
-  font-family: "Gothic A1";
-  line-height: 30px;
-}
-
-#web {
-  background-color: #C4AFA9;
-  opacity: 0.8;
-  width: 375px;
-  height: 470px;
-  position: relative;
-  float: right;
-  margin-right: 200px;
-  margin-bottom: 100px;
-}
-
-#web h6{
-  font-family: "Gothic A1";
-  padding-top: 30px;
-}
-
-#web p {
-  font-family: "Gothic A1";
-  line-height: 30px;
-}
 
 /* About */
 
-#about {
-  background-color: #20Transparent;
-  height: auto;
-  width: inherit;
-  position: relative;
-}
 
-#about h4 {
-  font-family: "Gothic A1";
-  text-align: center;
-  line-height: 100px;
-}
-
-#about p {
-  background-color: #C4AFA9;
-  font-family: "Gothic A1";
-  text-align: left;
-  margin-left: 5rem;
-  padding-right: 300px;
-  width: 600px;
-  position: relative;
-}
 
 /* Footer */
 
-#near-bottom {
+#footer {
   background-color: #EBDED9;
   height: auto;
-  padding-bottom: 50px;
-  padding-top: 150px;
-}
-
-#columns {
-  text-align: center;
-  padding-top: 50px;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-family: 'Gothic A1', sans-serif;
-}
-
-#column-sub {
-  padding-top: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 12px;
-  line-height: 20px;
-  text-align: left;
-}
-
-#footer {
-  background-color: white;
-  height: 300px;
   width: auto;
 }
 
-a.social {
-  color: black;
+#instafeed {
+  margin-left: 150px;
+  margin-bottom: 100px;
+
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 100px;
+#about-footer {
+margin-right: 150px;
+margin-bottom: 100px;
 }
 
-
-#foot-text p {
-  padding: 10px;
-  padding-bottom: 50px;
-  font-size: 12px;
-  letter-spacing: 2px;
+#about-footer h3 {
+  font-family: Times New Roman, Georgia, serif;
+  font-size: 16px;
+  font-color: #101820;
 }
 
-.fab{
-  padding-left: 15px;
-  padding-right: 15px;
+#about-footer p {
+  font-family: Gothic A1, Helvetica, Arial;
+  font-size: 14px;
+  font-color: #101820;
+  line-height: 26px;
 }
