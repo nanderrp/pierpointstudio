@@ -9,6 +9,15 @@
   <link href="https://fonts.googleapis.com/css?family=Gothic+A1:300,400,500" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gothic+A1:300,400,500">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init("user_ZAWMKXuZJCblF5cQ3OYJ3");
+   })();
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script type="text/javascript" src="email.js"></script>
   <title>Pierpoint Studio</title>
 </head>
 
@@ -51,7 +60,7 @@
 
       <div id="inputs" class="container-fluid">
 
-        <input id="name" type="text"  alt="submit" align="middle" height:"30px" placeholder="Name" /><br>
+        <input id="name" type="text"  alt="submit" align="middle" height:"30px" placeholder="Name" name="foo" /><br>
         <input id="email" type="text"  alt="submit" align="middle" height:"30px" placeholder="Email Adress" /><br>
         <input id="business" type="text"  alt="submit" align="middle" height:"30px" placeholder="Business Name" /><br>
         </div>
@@ -67,7 +76,9 @@
         <input id="how" type="text"  alt="submit" align="middle" height:"30px" placeholder="How did you hear about Pierpoint Studio?" />
       </div><br>
 
-      <button id="submit">Submit</button>
+      <button onclick="sendMail() success()" id="submit">Submit</button>
+
+      <div class="g-recaptcha" data-sitekey="6LeNLqoUAAAAAGOd386OPuSlB8zBSkMdi0UrfTaL"></div>
 
 
       </div>
