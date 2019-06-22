@@ -29,7 +29,7 @@ emailjs.send(service_id, template_id, template_params);
 
 function success() {
 
-
+alert("Your Email Was Successfully Sent!");
 
 
   //site key 6LeNLqoUAAAAAGOd386OPuSlB8zBSkMdi0UrfTaL
